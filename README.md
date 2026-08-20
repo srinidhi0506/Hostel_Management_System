@@ -1,117 +1,82 @@
-# Hostel Management System
 
-A Java-based application that efficiently manages hostel operations like student records and room allocation using Object-Oriented Programming (OOP).
+# 🏨 Hostel Room Allocation System
 
----
+The **Hostel Room Allocation System** is a web-based application designed to simplify and automate the process of allocating hostel rooms to students. The system allows students to apply for hostel accommodation while enabling administrators to manage room availability, allocate rooms efficiently, and monitor hostel occupancy.
 
-## Project Description
-
-The **Hostel Management System** is designed to simplify hostel administration by organizing student details, managing room allocations, and handling different room types.
-
-This project demonstrates strong understanding of:
-
-* Object-Oriented Programming (OOP)
-* Java fundamentals
-* Real-world system design
+This platform improves hostel management by reducing manual work, ensuring fair room distribution, and providing an organized system for handling student accommodation requests.
 
 ---
 
-##  Features
+## 📸 Screenshots
 
-*  Add and manage student details
-*  Allocate rooms to students
-* Support for multiple room types:
+### Main Page
+![main page](images/Mainpage.jpeg)
 
-  * Single Room
-  * Double Room
-  * Multi Room
-*  Organized class-based architecture
-* Simple console-based UI
+### Room Allocation Panel
+![Room Allocation](images/room_allocation.jpeg)
 
----
 
-## Tech Stack
 
-* **Language:** Java
-* **Concepts Used:**
-
-  * Classes & Objects
-  * Encapsulation
-  * Inheritance
 
 ---
 
-## Project Structure
+## 🚀 Features
+
+### Student Module
+- Student registration and login system
+- Apply for hostel accommodation
+- View allocated room details
+- Track application status
+
+### Admin Module
+- Admin login and authentication
+- View student hostel applications
+- Allocate rooms to students
+- Manage hostel room availability
+- Monitor occupancy status
+
+### Room Management
+- Add or update hostel rooms
+- Track available and occupied rooms
+- Manage room capacity
+
+### System Features
+- Easy-to-use interface
+- Organized student data management
+- Efficient hostel room allocation
+- Reduces manual paperwork
+
+---
+
+## ⚙️ Requirements
+
+To run this project, make sure the following software is installed:
+
+- **Java Development Kit (JDK)** 8 or higher
+- **VS Code** or any Java IDE (IntelliJ IDEA / Eclipse)
+- **Java Extension Pack** for VS Code
+- **Terminal / Command Prompt**
+
+## 🛠 Technology Stack
+
+### Programming Language
+- Java
+
+### GUI Framework
+- Java Swing
+
+### Concepts Used
+- Object-Oriented Programming (OOP)
+- Inheritance
+- Encapsulation
+- Polymorphism
+
+### Tools
+- VS Code
+- Java Development Kit (JDK)
+- Git & GitHub
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
 
 ```bash
-Hostel_Managment_System/
- ├── src/
- │    └── hostel/
- │         ├── Student.java
- │         ├── Room.java
- │         ├── SingleRoom.java
- │         ├── DoubleRoom.java
- │         ├── MultiRoom.java
- │         ├── Hostel.java
- │         ├── HostelManager.java
- │         └── MainUI.java
- ├── README.md
- └── .gitignore
-```
-
----
-
-## How to Run the Project
-
-### Step 1: Clone Repository
-
-```bash
-git clone https://github.com/srinidhi0506/Hostel_Management_System.git
-```
-
-### Step 2: Navigate to Source Folder
-
-```bash
-cd Hostel_Managment_System/src
-```
-
-### Step 3: Compile Java Files
-
-```bash
-javac hostel/*.java
-```
-
-### Step 4: Run Application
-
-```bash
-java hostel.MainUI
-```
-
----
-
-## Future Enhancements
-
-* Add GUI using Java Swing / JavaFX
-* Integrate database (MySQL)
-* Add authentication system
-* Convert into web application
-
----
-
-## Learning Outcomes
-
-* Practical implementation of OOP concepts
-* Improved Java coding skills
-* Understanding real-world project structure
-
----
-
-## License
-
-This project is for educational purposes.
-
----
-
-## Author
-
-**Srinidhi Bhonagiri**
