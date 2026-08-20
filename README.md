@@ -80,3 +80,4 @@ To run this project, make sure the following software is installed:
 ### 1️⃣ Clone the Repository
 
 ```bash
+https://github.com/srinidhi0506/Hostel_Management_System.git
